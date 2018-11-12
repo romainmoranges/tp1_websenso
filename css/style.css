@@ -142,8 +142,8 @@ body {
     text-align: center;
 }
 
-.region-sidebar form{
-    margin-top:2em;
+.region-sidebar form {
+    margin-top: 2em;
 }
 
 .region-sidebar form label {
@@ -164,4 +164,28 @@ body {
     margin: 1em auto 0 auto;
     display: block;
     font-size: 0.9em;
+}
+
+.region-footer{
+    background-color: black;
+    height: 50px;
+}    
+
+@media only screen and (min-width: 767px) {
+    body{
+        font-size:1em;
+    }
+    .region-main article div:last-child {
+        font-size: initial;
+    }
+}
+
+@media only screen and (min-width: 767px) and (orientation: landscape) {
+    .article-left article {
+        padding: 10% 0;
+    }
+}
+
+@media only screen and (min-width:1279px){
+
 }
