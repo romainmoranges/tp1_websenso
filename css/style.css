@@ -166,15 +166,16 @@ body {
     font-size: 0.9em;
 }
 
-.region-footer{
+.region-footer {
     background-color: black;
     height: 50px;
-}    
+}
 
 @media only screen and (min-width: 767px) {
-    body{
-        font-size:1em;
+    body {
+        font-size: 1em;
     }
+
     .region-main article div:last-child {
         font-size: initial;
     }
@@ -186,6 +187,73 @@ body {
     }
 }
 
-@media only screen and (min-width:1279px){
+@media only screen and (min-width:1279px) {
+    .container {
+        width: 65%;
+    }
 
+    .header>div {
+        width: 20%;
+    }
+
+    .region-top {
+        display: flex;
+    }
+
+    .region-top .article-left {
+        width: 66.6666%;
+    }
+
+    .region-top .article-left article {
+        padding: 0;
+        min-height: 100%;
+        position: relative;
+    }
+
+    .region-top .article-left article>div {
+        margin: 0;
+        width: 50%;
+        position: absolute;
+        bottom: 10%;
+        left: 5%;
+    }
+
+    .region-top .article-left article>div h1 {
+        margin-bottom: 20px;
+    }
+
+    .region-top .article-right {
+        width: 33.3333%;
+    }
+
+    .region-top .article-right article h1 {
+        font-size: 1em;
+    }
+
+    .region-main {
+        width: 66.6666%;
+        float: left;
+    }
+
+    .region-sidebar {
+        width: 33.3333%;
+        float: right;
+    }
+
+    .region-sidebar h1 {
+        font-size: 1.2em;
+    }
+
+    .region-sidebar form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .region-sidebar form label{
+        width:unset;
+    }
+
+    .region-footer {
+        clear: both;
+    }
 }
