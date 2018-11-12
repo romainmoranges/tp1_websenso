@@ -249,6 +249,10 @@ body {
         flex-direction: column;
     }
 
+    .region-sidebar form br{
+        display:none;
+    }
+
     .region-sidebar form label{
         width:unset;
     }
