@@ -185,6 +185,9 @@ body {
     .article-left article {
         padding: 10% 0;
     }
+    .region-main article div:last-child{
+        font-size:1em;
+    }
 }
 
 @media only screen and (min-width:1279px) {
